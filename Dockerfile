@@ -2,6 +2,8 @@ FROM ubuntu:20.04
 
 LABEL Maintainer="adgsenpai"
 
+EXPOSE 8000
+
 RUN apt-get update
 
 COPY . . 
