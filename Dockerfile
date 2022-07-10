@@ -2,6 +2,8 @@ FROM ubuntu:20.04
 
 LABEL Maintainer="adgsenpai"
 
+RUN apt-get update
+
 COPY . . 
 
 RUN apt-get install python3 -y
