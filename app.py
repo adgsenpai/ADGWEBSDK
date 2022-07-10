@@ -11,6 +11,6 @@ app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 def home():
   return render_template('index.html')
 
-#running server on port 5000 - you can change the values here
+#running server on port 8000 - you can change the values here
 if __name__ == "__main__":
-  app.run(host="0.0.0.0",port=5000)
+  app.run(host="0.0.0.0",port=8000)
